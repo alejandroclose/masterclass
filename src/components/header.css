@@ -1,0 +1,67 @@
+.header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 14rem;
+  margin: 0 auto;
+}
+.menu-btn {
+  width: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.menu-icon {
+  width: 2rem;
+}
+
+.menu {
+  width: 20vw;
+  background-color: white;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  margin-top: 3rem;
+  padding-right: 1rem;
+}
+
+.menu-item-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-item-icon {
+  width: 0.75rem;
+}
+
+.search {
+  width: 2rem;
+  background-color: transparent;
+  border: none;
+}
+
+.is-closed {
+  display: none;
+}

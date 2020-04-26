@@ -8,6 +8,7 @@ import Logo from "../images/lostragos_logo_horizontal.png"
 import Menu from "./assets/menu.svg"
 import MenuArrow from "./assets/menu-arrow.svg"
 import Home from "./assets/home.svg"
+import Breadcrumb from "./breadcrumb"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,7 @@ const Header = () => {
         </div>
         <button className="search" />
       </header>
+      <Breadcrumb />
       <aside>
         <div className={isOpen ? "menu" : "is-closed"}>
           <ul>

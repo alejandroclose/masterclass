@@ -1,0 +1,35 @@
+.storefront {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.featured{
+  width:33vw;
+  height: 25vw;
+}
+
+.secondary {
+  width: 15vw;
+  height: 25vw;
+  margin: 0 0.25rem;
+}
+
+.gallery {
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-one {
+  width: 15vw;
+  height: 15vw;
+  margin: 0;
+}
+
+.gallery-two {
+  margin: 0.25rem 0 0 0;
+  width: 15vw;
+  height: 15vw;
+}

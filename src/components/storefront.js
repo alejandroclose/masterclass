@@ -9,11 +9,11 @@ const Storefront = props => {
   return (
     <>
       <div className="storefront">
-        <iframe className="featured" src={props.video} frameborder="0"></iframe>
-        <img className="secondary" src={props.support} />
+        <iframe className="featured" src={props.featured} frameborder="0"></iframe>
+        <img className="secondary" src={props.secondary} />
         <div className="gallery">
-          <img className="gallery-one" src={props.extra1} />
-          <img className="gallery-two" src={props.extra2} />
+          <img className="gallery-one" src={props.galleryone} />
+          <img className="gallery-two" src={props.gallerytwo} />
         </div>
       </div>
     </>

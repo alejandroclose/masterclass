@@ -1,12 +1,13 @@
 .storefront {
-  margin-top: 4rem;
+  width: 80vw;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-
+  justify-content: center;
 }
 
-.featured{
-  width:33vw;
+.featured {
+  width: 33vw;
   height: 25vw;
 }
 

@@ -12,7 +12,7 @@ import CS2 from "../images/cocktailshop2.jpg"
 const CocktailShop = () => (
   <Layout>
     <SEO title="losTRAGOS + Cocktail Shop" />
-    <Storefront video="https://player.vimeo.com/video/227348480" support={Pizarro} extra1={CS1} extra2={CS2}/>
+    <Storefront featured="https://player.vimeo.com/video/227348480" secondary={Pizarro} galleryone={CS1} gallerytwo={CS2}/>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

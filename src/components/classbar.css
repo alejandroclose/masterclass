@@ -1,3 +1,19 @@
 .classbar {
+  width: 100vw;
+  border-top: 2px solid #ee2e30;
+  border-bottom: 2px solid #ee2e30;
+  margin-top: 1rem;
+}
 
+.classbar-content {
+  font-family: 'Montserrat', sans-serif;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.classbar-title {
+  font-weight: 800;
 }

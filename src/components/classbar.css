@@ -1,12 +1,13 @@
 .classbar {
   width: 100vw;
+  height: 4rem;
   border-top: 2px solid #ee2e30;
   border-bottom: 2px solid #ee2e30;
   margin-top: 1rem;
 }
 
 .classbar-content {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 80vw;
   margin: 0 auto;
   display: flex;
@@ -14,6 +15,55 @@
   justify-content: space-between;
 }
 
+.classbar-class {
+  display: flex;
+  flex-direction: column;
+  margin: 0.15rem;
+  justify-content: center;
+
+}
+
 .classbar-title {
+  font-weight: 800;
+}
+
+.classbar-type {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.classbar-event {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #ee2e30;
+  margin: 0.25rem;
+  padding: 0.15rem;
+  border: 2px solid #ee2e30;
+}
+
+.classbar-pricing {
+  display: flex;
+  align-items: center;
+}
+
+.classbar-price {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #ee2e30;
+}
+
+.classbar-cta {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.classbar-cta button {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ee2e30;
+  border-color: #ee2e30;
+  color: white;
+  padding: 0.25rem;
   font-weight: 800;
 }

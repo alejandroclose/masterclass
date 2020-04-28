@@ -10,19 +10,19 @@ const Classbar = props => {
       <div className="classbar">
         <div className="classbar-content">
           <div className="classbar-class">
-            <div className="classbar-title">
-              MASTER CLASS DE CÓCTELES DEL MUNDO #ENCASA
-            </div>
-            <div className="classbar-author">por Cocktail Shop</div>
+            <h1 className="classbar-title">
+              {props.title}
+            </h1>
+            <div className="classbar-author">{props.author}</div>
           </div>
           <div className="classbar-type">
-            <div className="classbar-event">EN VIVO + ONLINE</div>
+            <div className="classbar-event">{props.type}</div>
           </div>
           <div className="classbar-pricing">
             <div className="classbar-price">
-              13 €
+              {props.price}
             </div></div>
-          <a className="classbar-cta" href="/#inscripción"><button>Inscribirme</button></a>
+          <a className="classbar-cta" href="/#inscripción"><button>{props.cta}</button></a>
         </div>
       </div>
     </>

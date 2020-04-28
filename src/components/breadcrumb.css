@@ -1,3 +1,16 @@
 .breadcrumb {
-  margin-top: 3.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  padding: 4rem 1rem 0.5rem 1.75rem;
+  background-color: #f9f6ef;
+  text-decoration: none;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: black;
+}
+
+.breadcrumb-home {
+  width: 1rem;
 }

@@ -13,7 +13,7 @@ import CS2 from "../images/cocktailshop2.jpg"
 const CocktailShop = () => (
   <Layout>
     <SEO title="losTRAGOS + Cocktail Shop" />
-    <ClassBar />
+    <ClassBar title="MASTER CLASS DE CÓCTELES DEL MUNDO #ENCASA" author="por Cocktail Shop" type="EN VIVO + ONLINE" price="13 €" cta="Inscribirme"/>
     <Storefront featured="https://player.vimeo.com/video/227348480" secondary={Pizarro} galleryone={CS1} gallerytwo={CS2}/>
     <Link to="/">Go back to the homepage</Link>
   </Layout>

@@ -7,7 +7,7 @@ const Storefront = props => {
   // const [, ] = useState();
 
   return (
-    <>
+    <div className="section">
       <div className="storefront">
         <iframe className="featured" src={props.featured} frameborder="0"></iframe>
         <img className="secondary" src={props.secondary} />
@@ -16,7 +16,7 @@ const Storefront = props => {
           <img className="gallery-two" src={props.gallerytwo} />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

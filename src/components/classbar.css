@@ -3,7 +3,7 @@
   height: 4rem;
   border-top: 2px solid #ee2e30;
   border-bottom: 2px solid #ee2e30;
-  margin-top: 1rem;
+  background-color: #f9f6ef;
 }
 
 .classbar-content {
@@ -12,6 +12,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -20,11 +21,20 @@
   flex-direction: column;
   margin: 0.15rem;
   justify-content: center;
-
 }
 
 .classbar-title {
-  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.classbar-author {
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+  font-size: 1.25rem;
+    margin: 0;
 }
 
 .classbar-type {
@@ -38,8 +48,9 @@
   font-weight: 800;
   color: #ee2e30;
   margin: 0.25rem;
-  padding: 0.15rem;
+  padding: 0 1rem;
   border: 2px solid #ee2e30;
+  letter-spacing: 0.05rem;
 }
 
 .classbar-pricing {
@@ -48,8 +59,8 @@
 }
 
 .classbar-price {
-  font-weight: 800;
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 1.75rem;
   color: #ee2e30;
 }
 
@@ -61,9 +72,10 @@
 
 .classbar-cta button {
   font-family: "Open Sans", sans-serif;
-  background-color: #ee2e30;
-  border-color: #ee2e30;
-  color: white;
-  padding: 0.25rem;
   font-weight: 800;
+  font-size: 1.15rem;
+  background-color: #ee2e30;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  color: white;
 }

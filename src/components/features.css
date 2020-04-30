@@ -1,0 +1,63 @@
+.features {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0 0 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f9f6ef;
+  
+}
+
+.feature-box {
+  border: 2px solid #ee2e30;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 1rem 0 0.5rem;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.feature-icon {
+  width: 3.5rem;
+  height: 3rem;
+  margin: 0 auto;
+}
+
+.feature-title {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin: 0.25rem;
+}
+
+.feature-text {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: gray;
+  margin: 0.1rem;
+}
+
+.feature-btn {
+  cursor: pointer;
+  width: 11rem;
+  height: 2rem;
+  border: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #ee2e30;
+  color: white;
+}
+
+.feature-btn-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.feature-btn-text{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}

@@ -1,6 +1,6 @@
 .classbar {
   width: 100vw;
-  height: 4rem;
+  height: 4.5rem;
   border-top: 2px solid #ee2e30;
   border-bottom: 2px solid #ee2e30;
   background-color: #f9f6ef;
@@ -12,7 +12,6 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -26,14 +25,14 @@
 .classbar-title {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin: 0;
 }
 
 .classbar-author {
   font-family: "Open Sans", sans-serif;
   color: grey;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
     margin: 0;
 }
 
@@ -46,9 +45,9 @@
 .classbar-event {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
+  text-align: center;
   color: #ee2e30;
-  margin: 0.25rem;
-  padding: 0 1rem;
+  width: 13rem;
   border: 2px solid #ee2e30;
   letter-spacing: 0.05rem;
 }
@@ -59,9 +58,11 @@
 }
 
 .classbar-price {
+  width: 5rem;
   font-weight: 600;
   font-size: 1.75rem;
   color: #ee2e30;
+  margin: 1rem;
 }
 
 .classbar-cta {
@@ -71,6 +72,7 @@
 }
 
 .classbar-cta button {
+  cursor: pointer;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 1.15rem;

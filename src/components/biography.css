@@ -1,0 +1,11 @@
+.biography {
+  display: flex;
+  flex-direction: row;
+}
+
+.biography-img {
+  min-width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  margin: 0.5rem;
+}

@@ -1,0 +1,33 @@
+.content {
+  background-color:#f9f6ef;
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  width: 80vw;
+  background-color: white;
+  border-bottom: 2px solid #ee2e30;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-title {
+  font-family: "Open Sans", sans-serif;
+  min-width: 30vw;
+  font-weight: 800;
+  padding: 1rem 0 0 2rem;
+}
+
+.content-text {
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem 2rem 0 0;
+}
+
+.content-text p {
+  margin-bottom: 1rem;
+}
+
+.content-text li {
+
+}

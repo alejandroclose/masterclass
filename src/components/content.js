@@ -9,7 +9,7 @@ const Contentbox = props => {
   return (
     <>
     <div className="content">
-      <div className="content-box">
+      <div className={ props.order ? "content-box last-content" : "content-box"}>
         <h2 className="content-title">
           {props.title}
         </h2>

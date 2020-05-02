@@ -6,10 +6,12 @@
 
 .content-box {
   width: 80vw;
+  min-height: 10vw;
   background-color: white;
   border-bottom: 2px solid #ee2e30;
   display: flex;
   flex-direction: row;
+  font-weight: 600;
 }
 
 .content-title {
@@ -22,12 +24,23 @@
 .content-text {
   font-family: "Open Sans", sans-serif;
   padding: 1rem 2rem 0 0;
+  text-align: justify;
 }
 
 .content-text p {
   margin-bottom: 1rem;
 }
 
-.content-text li {
-
+.content-text ul {
+  list-style-image: url("../images/check.png");  
 }
+
+.content-text li div {
+  color: grey;
+  font-weight: 400;
+}
+
+.last-content {
+  border-bottom: 0;
+}
+

@@ -25,7 +25,7 @@ const IndexPage = () => (
       cta="Inscribirme"
     />
     <Storefront
-      featured="https://player.vimeo.com/video/227348480"
+      featured="https://player.vimeo.com/video/414744180"
       secondary={Pizarro}
       galleryone={CS1}
       gallerytwo={CS2}
@@ -36,7 +36,7 @@ const IndexPage = () => (
       level="Iniciación"
       format="Online y en vivo"
       age="18 años"
-      date="sab. 9 mayo 20h (CEST)"
+      date="Sáb. 9 mayo 22h (España)"
       idlink="/cocktail-shop/#horarios"
     />
     <Content title="SOBRE EL CURSO">
@@ -86,8 +86,8 @@ const IndexPage = () => (
       <p>Una vez inscrito, te enviaremos un enlace a tu mail para participar.</p>
       <p>Consulta nuestra política de cancelación.</p>
     </Content>
-    <Content id="horarios" title="HORARIOS DISPONIBLES" order="last">
-      <Date date="Vie., 15 septiembre 2020" time="20:00h-21:00h (CEST)" cta="Inscribirme"/>
+    <Content id="horarios" title="HORARIOS DISPONIBLES" order="last-content">
+      <Date date="Sáb. 9 mayo 2020" time="22h (CEST, España)" cta="Inscribirme"/>
     </Content>
   </Layout>
 )

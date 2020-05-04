@@ -1,4 +1,55 @@
 .footer {
+  font-family: "Open Sans", sans-serif;
   background-color: #2a2a2a;
   height: 20vh;
+  font-size: 0.8rem;
+}
+.footer-content {
+  width: 60vw;
+  height: 20vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-brand {
+  margin-top: 1rem;
+  color: grey;
+}
+
+hr {
+  border: 1px solid grey;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-links a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: white;
+}
+
+.sub-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.footer-copyright {
+  margin: 0 1rem;
+  color: grey;
+}
+
+.footer-inspiration {
+  color: #ee2e30;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-content {
+    width: 90vw;
+  }
 }

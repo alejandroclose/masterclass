@@ -9,3 +9,20 @@
   border-radius: 50%;
   margin: 0.5rem 2rem;
 }
+
+.biography-text a {
+  color: black;
+}
+
+@media only screen and (max-width: 767px) {
+  .biography {
+    flex-direction: column;
+  }
+
+  .biography-img {
+    width: 35vw;
+    height: 15vh;
+    margin: 0 auto;
+    margin-bottom: 0.75rem;
+  }
+}

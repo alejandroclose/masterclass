@@ -88,21 +88,26 @@
   }
 
   .classbar-title {
-    text-align: center;
+    text-align: left;
   }
 
   .classbar-author {
-    text-align: center;
+    text-align: left;
   }
   
   .classbar-content {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 
   }
 
   .classbar-type {
     height: 100%;
+  }
+
+  .classbar-event {
+    margin: 0 2rem 0 0;
+    width: 11rem;
   }
 
   .classbar-pricing {

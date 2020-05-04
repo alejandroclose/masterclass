@@ -23,6 +23,7 @@ const CocktailShop = () => (
       type="EN VIVO + ONLINE"
       price="10 €"
       cta="Inscribirme"
+      link="https://zoom.us/webinar/register/WN_LdNskxGxT_WYyiKrxBJOOA"
     />
     <Storefront
       featured="https://player.vimeo.com/video/414744180"
@@ -75,7 +76,7 @@ const CocktailShop = () => (
         <li>Navegador Chrome o Firefox reciente</li>
         <li>Ingredientes para preparar los cocteles
         <div>Ginebra (Gin), ron, limones, azúcar, mermelada de naranja, miel, agua con gas,
-          zumo/jugo de piña, zumo/jugo de naranja, fresas, menta fresca, albahaca fresca.
+        zumo de piña (jugo de piña), zumo de naranja (jugo de naranja), fresas, menta fresca, albahaca fresca, hielo.
         </div>
         </li>
         <li>Material
@@ -85,12 +86,13 @@ const CocktailShop = () => (
       </ul>
     </Content>
     <Content title="CÓMO PARTICIPAR">
-      <p>El curso es online y en vivo a través de la aplicación <a href="http://zoom.us">Zoom</a>. Tendrás que descargarla en tu ordenador, teléfono móvil o tablet para poder participar.</p>
+      <p>El curso es online y en vivo a través de la aplicación <a href="http://zoom.us">Zoom</a>. 
+      Para poder participar, podrás acceder desde el navegador o descargarla en tu ordenador, teléfono móvil o tablet.</p>
       <p>Una vez inscrito, te enviaremos un enlace a tu mail para participar. Cualquier duda puedes escribirnos a info@lostrgos.com</p>
       <p>No se admiten cancelaciones.</p>
     </Content>
     <Content id="horarios" title="HORARIOS DISPONIBLES" order="last-content">
-      <Date date="Sáb. 9 mayo 2020" time="22h (CEST, España)" cta="Inscribirme"/>
+      <Date date="Sáb. 9 mayo 2020" time="22h (CEST, España)" cta="Inscribirme" link="https://zoom.us/webinar/register/WN_LdNskxGxT_WYyiKrxBJOOA"/>
     </Content>
   </Layout>
 )

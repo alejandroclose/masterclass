@@ -34,23 +34,23 @@ const Header = () => {
         <div className={isOpen ? "menu" : "is-closed"}>
           <ul>
             <li className="menu-item">
-              <div className="menu-item-text">ENTRADA</div>
+              <a href="http://lostragos.com" className="menu-item-text">ENTRADA</a>
               <Home className="menu-item-icon" />
             </li>
             <li className="menu-item">
-              <div className="menu-item-text">RECETAS</div>
+              <a href="http://lostragos.com/categoria/clasicos/" className="menu-item-text">RECETAS</a>
               <MenuArrow className="menu-item-icon" />
             </li>
             <li className="menu-item">
-              <div className="menu-item-text">OCASIONES</div>
+              <a href="http://lostragos.com/categoria/verano/" className="menu-item-text">OCASIONES</a>
               <MenuArrow className="menu-item-icon" />
             </li>
             <li className="menu-item">
-              <div className="menu-item-text">COLECCIONES</div>
+              <a href="http://lostragos.com/categoria/iba/" className="menu-item-text">COLECCIONES</a>
               <MenuArrow className="menu-item-icon" />
             </li>
             <li className="menu-item">
-              <div className="menu-item-text">MASTER CLASS</div>
+              <Link to="/cocktail-shop" className="menu-item-text">MASTER CLASS</Link>
               <MenuArrow className="menu-item-icon" />
             </li>
           </ul>

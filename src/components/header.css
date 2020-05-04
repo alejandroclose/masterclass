@@ -53,6 +53,11 @@
   justify-content: space-between;
 }
 
+.menu-item a {
+  text-decoration: none;
+  color: black;
+}
+
 .menu-item-icon {
   width: 0.75rem;
 }
@@ -65,4 +70,10 @@
 
 .is-closed {
   display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu {
+    width: 80vw;
+  }
 }

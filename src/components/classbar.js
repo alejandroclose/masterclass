@@ -22,7 +22,7 @@ const Classbar = props => {
             <div className="classbar-price">
               {props.price}
             </div></div>
-          <a className="classbar-cta" href="/#inscripción"><button>{props.cta}</button></a>
+          <a target="_blank" className="classbar-cta" href={props.link}><button>{props.cta}</button></a>
         </div>
       </div>
     </>

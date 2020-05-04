@@ -12,7 +12,7 @@ const Date = props => {
         <p>{props.date}</p>
         <p>{props.time}</p>
       </div>
-  <button className="date-btn">{props.cta}</button>
+  <a target="_blank" href={props.link}><button className="date-btn">{props.cta}</button></a>
     </div>
     </>
   )

@@ -16,13 +16,14 @@ import CS2 from "../images/cocktailshop2.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="losTRAGOS + Cocktail Shop" />
+    <SEO title="Master class de coctelería #EnCasa | losTRAGOS + Cocktail Shop" />
     <ClassBar
       title="MASTER CLASS DE COCTELERIA #ENCASA"
       author="por Cocktail Shop"
       type="EN VIVO + ONLINE"
-      price="13 €"
+      price="10 €"
       cta="Inscribirme"
+      link="https://zoom.us/webinar/register/WN_LdNskxGxT_WYyiKrxBJOOA"
     />
     <Storefront
       featured="https://player.vimeo.com/video/414744180"
@@ -41,30 +42,31 @@ const IndexPage = () => (
     />
     <Content title="SOBRE EL CURSO">
       <p>
-        Viaja a Cuba para aprender todos los secretos de un buen MOJITO CLÁSICO,
-        como los que bebía Hemingway en La Bodeguita del Medio, y si lo
-        prefieres puedes hacerlo con puré de frutas para darte otro sabor.
+        Sumérgete en la coctelería de la mano del reconocido bartender 
+        Alberto Pizarro en su Master Class online desde Barcelona, España.
       </p>
       <p>
-        Luego sube a Estados Unidos para saborear un cóctel elegante y sexy como
-        el famoso COSMOPOLITAN, inmortalizado por la adorable Carrie Bradshaw de
-        la popular serie Sex and the City.
+      Aprenderás a preparar tres recetas de autor ideadas especialmente para esta Master Class. Y todo con
+      ingredientes que podrás encontrar en cualquier supermercado, sin técnicas complicadas ni
+      utensilios especializados.
       </p>
+      
       <p>
-        Acaba en Australia y descubre el JAPANESE SLIPPER, inventado por un un
-        prestigioso chef de Melbourne.
+        Descubre de una manera divertida y desde tu casa tips únicos y la mejor forma de preparar deliciosos tragos para compartir 
+        con familia y amigos.
       </p>
     </Content>
-    <Content title="COCKTAIL SHOP">
+    <Content title="COCKTAIL SHOP Y ALBERTO PIZARRO">
       <Biography img={Pizarro}>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et
-          maximus est. Quisque laoreet pulvinar consectetur. Vestibulum ante
-          ipsum primis in fauci- bus orci luctus et ultrices posuere cubilia
-          Curae; Cu- rabitur fringilla mollis libero. Vivamus quis lobortis
-          diam. Mauris euismod iaculis porta. Duis vitae pellentesque nunc,
-          tincidunt vehi-
+          <a href="http://www.cocktailshop.es">Cocktail Shop</a>, la tienda de material especializado para coctelería en Barcelona,
+          presenta a Alberto Pizarro y su Master Class de coctelería #EnCasa.
         </p>
+        <p>
+        Alberto es considerado uno de los bartenders mas influyentes de España. Ha sido nombrado en 2011, 2014 y 2016 como mejor Barman del Año.
+        </p>
+        <p>Además, es copropietario del bar Bobby Gin en Barcelona, considerado el templo del Gin&Tonic en España y valorado 
+        a nivel internacional como uno de los bares más influyentes en su género.   </p>
       </Biography>
     </Content>
     <Content title="QUÉ NECESITAS">
@@ -72,22 +74,25 @@ const IndexPage = () => (
         <li>Ordenador, teléfono móvil o tablet</li>
         <li>Conexión estable a internet</li>
         <li>Navegador Chrome o Firefox reciente</li>
-        <li>Ingredientes para los cocteles (Opcional)
-        <div>1 botella de Ron, limones, agua.</div>
+        <li>Ingredientes para preparar los cocteles
+        <div>Ginebra (Gin), ron, limones, azúcar, mermelada de naranja, miel, agua con gas,
+        zumo de piña (jugo de piña), zumo de naranja (jugo de naranja), fresas, menta fresca, albahaca fresca, hielo.
+        </div>
         </li>
-        <li>Material (Opcional)
-        <div>1 vaso, 1 mezclador.</div>
+        <li>Material
+        <div>Vasos altos, 1 mezclador(Opcional).</div>
         </li>
         
       </ul>
     </Content>
     <Content title="CÓMO PARTICIPAR">
-      <p>El curso es online y en vivo a través de la aplicación Zoom. Tendrás que des- cargarla en tu ordenador, teléfono móvil o tablet para participar.</p>
-      <p>Una vez inscrito, te enviaremos un enlace a tu mail para participar.</p>
-      <p>Consulta nuestra política de cancelación.</p>
+      <p>El curso es online y en vivo a través de la aplicación <a href="http://zoom.us">Zoom</a>. 
+      Para poder participar, podrás acceder desde el navegador o descargarla en tu ordenador, teléfono móvil o tablet.</p>
+      <p>Una vez inscrito, te enviaremos un enlace a tu mail para participar. Cualquier duda puedes escribirnos a info@lostrgos.com</p>
+      <p>No se admiten cancelaciones.</p>
     </Content>
     <Content id="horarios" title="HORARIOS DISPONIBLES" order="last-content">
-      <Date date="Sáb. 9 mayo 2020" time="22h (CEST, España)" cta="Inscribirme"/>
+      <Date date="Sáb. 9 mayo 2020" time="22h (CEST, España)" cta="Inscribirme" link="https://zoom.us/webinar/register/WN_LdNskxGxT_WYyiKrxBJOOA"/>
     </Content>
   </Layout>
 )

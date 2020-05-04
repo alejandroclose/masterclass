@@ -5,6 +5,7 @@
 
 .storefront {
   width: 80vw;
+  height: 100%;
   margin: 0 auto;
   padding: 1rem 0;
   display: flex;

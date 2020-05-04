@@ -1,0 +1,19 @@
+.date {
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 2px solid #f9f6ef;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 0 1rem 0 ;
+}
+
+.date-text p{
+  margin-bottom: 0;
+}
+
+.date-btn {
+  height: 2rem;
+  margin: 0 2rem;
+  background-color: transparent;
+  border: 2px solid #ee2e30;
+  color: #ee2e30;
+}

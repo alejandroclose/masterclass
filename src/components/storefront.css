@@ -4,7 +4,7 @@
 }
 
 .storefront {
-  width: 81vw;
+  width: 80vw;
   margin: 0 auto;
   padding: 1rem 0;
   display: flex;
@@ -15,30 +15,30 @@
 
 .featured {
   width: 40vw;
-  height: 30vw;
+  height: 23vw;
   margin: 0 0 0 0.5rem;
 }
 
 .secondary {
   width: 19vw;
-  height: 30vw;
+  height: 23vw;
   margin: 0 0.25rem 0 0.5rem;
 }
 
 .gallery {
-  height: 30vw;
+  height: 23vw;
   display: flex;
   flex-direction: column;
 }
 
 .gallery-one {
   width: 19.5vw;
-  height: 15vw;
+  height: 11vw;
   margin: 0 0 0.25rem 0.25rem;
 }
 
 .gallery-two {
   width: 19.5vw;
-  height: 15vw;
+  height: 11.5vw;
   margin: 0.25rem 0 0 0.25rem;
 }

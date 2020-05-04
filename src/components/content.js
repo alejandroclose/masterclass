@@ -7,8 +7,8 @@ const Contentbox = props => {
   // const [, ] = useState();
 
   return (
-    <>
-    <div className="content">
+    <div id={props.id}>
+    <div className={ props.order ? "content last-content" : "content"}>
       <div className={ props.order ? "content-box last-content" : "content-box"}>
         <h2 className="content-title">
           {props.title}
@@ -18,7 +18,7 @@ const Contentbox = props => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   )
 }
 

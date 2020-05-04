@@ -81,3 +81,31 @@
   padding: 0.5rem 1.25rem;
   color: white;
 }
+
+@media only screen and (max-width: 767px) {
+  .classbar {
+    height: 9.5rem;
+  }
+
+  .classbar-title {
+    text-align: center;
+  }
+
+  .classbar-author {
+    text-align: center;
+  }
+  
+  .classbar-content {
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .classbar-type {
+    height: 100%;
+  }
+
+  .classbar-pricing {
+    width: 6rem;
+  }
+}

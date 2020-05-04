@@ -16,14 +16,14 @@
 
 .content-title {
   font-family: "Open Sans", sans-serif;
-  min-width: 30vw;
   font-weight: 800;
+  min-width: 30vw;
   padding: 1rem 0 0 2rem;
 }
 
 .content-text {
   font-family: "Open Sans", sans-serif;
-  padding: 1rem 2rem 0 0;
+  padding: 1rem 3rem 0 0;
   text-align: justify;
 }
 
@@ -35,6 +35,12 @@
   list-style-image: url("../images/check.png");  
 }
 
+.content-text li {
+  width: 45vw;
+  border-bottom: 2px solid #f9f6ef;
+  padding-bottom: 0.5rem; 
+}
+
 .content-text li div {
   color: grey;
   font-weight: 400;
@@ -42,5 +48,6 @@
 
 .last-content {
   border-bottom: 0;
+  padding-bottom: 2rem;
 }
 

@@ -59,7 +59,7 @@ const Features = props => {
           <div className="feature-text">{props.date}</div>
         </div>
       </div>
-      <button className="feature-btn"><Glass className="feature-btn-icon"/><div className="feature-btn-text">Ver más fechas</div></button>
+      <Link to={props.idlink}><button className="feature-btn"><Glass className="feature-btn-icon"/><div className="feature-btn-text">Ver más fechas</div></button></Link>
     </div>
     </div>
   )

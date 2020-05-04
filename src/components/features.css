@@ -11,6 +11,10 @@
   
 }
 
+.features a {
+  text-decoration: none;
+}
+
 .feature-box {
   border: 2px solid #ee2e30;
   width: 7rem;

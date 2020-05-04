@@ -11,6 +11,7 @@ import Biography from "../components/biography"
 import Date from "../components/date"
 
 import Pizarro from "../images/albertopizarro.jpg"
+import Pizarro2 from "../images/albertopizarro2.jpg"
 import CS1 from "../images/cocktailshop1.jpg"
 import CS2 from "../images/cocktailshop2.jpg"
 
@@ -57,7 +58,7 @@ const IndexPage = () => (
       </p>
     </Content>
     <Content title="COCKTAIL SHOP Y ALBERTO PIZARRO">
-      <Biography img={Pizarro}>
+      <Biography img={Pizarro2}>
         <p>
           <a href="http://www.cocktailshop.es">Cocktail Shop</a>, la tienda de material especializado para coctelería en Barcelona,
           presenta a Alberto Pizarro y su Master Class de coctelería #EnCasa.

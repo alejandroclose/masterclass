@@ -89,7 +89,7 @@ const CocktailShop = () => (
     <Content title="CÓMO PARTICIPAR">
       <p>El curso es online y en vivo a través de la aplicación <a href="http://zoom.us">Zoom</a>. 
       Para poder participar, podrás acceder desde el navegador o descargarla en tu ordenador, teléfono móvil o tablet.</p>
-      <p>Una vez inscrito, te enviaremos un enlace a tu mail para participar. Cualquier duda puedes escribirnos a info@lostrgos.com</p>
+      <p>Una vez inscrito, te enviaremos un enlace a tu mail para participar. Cualquier duda puedes escribirnos a info@lostragos.com</p>
       <p>No se admiten cancelaciones.</p>
     </Content>
     <Content id="horarios" title="HORARIOS DISPONIBLES" order="last-content">

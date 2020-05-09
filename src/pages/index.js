@@ -38,7 +38,7 @@ const IndexPage = () => (
       level="Iniciación"
       format="Online y en vivo"
       age="18 años"
-      date="Sáb. 9 mayo 22h (España)"
+      date="HOY, Sáb. 9 mayo 22h (España)"
       idlink="/cocktail-shop/#horarios"
     />
     <Content title="SOBRE EL CURSO">
@@ -93,7 +93,7 @@ const IndexPage = () => (
       <p>No se admiten cancelaciones.</p>
     </Content>
     <Content id="horarios" title="HORARIOS DISPONIBLES" order="last-content">
-      <Date date="Sáb. 9 mayo 2020" time="22h (CEST, España)" cta="Inscribirme" link="https://zoom.us/webinar/register/WN_LdNskxGxT_WYyiKrxBJOOA"/>
+      <Date date="HOY, Sáb. 9 mayo 2020" time="22h (CEST, España)" cta="Inscribirme" link="https://zoom.us/webinar/register/WN_LdNskxGxT_WYyiKrxBJOOA"/>
     </Content>
   </Layout>
 )

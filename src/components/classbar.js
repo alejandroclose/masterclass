@@ -20,7 +20,7 @@ const Classbar = props => {
           <div className="classbar-type">
             <div className="classbar-event">{props.type}</div>
           </div>
-          <img className="bocadillo-top" src={BocadilloTop}/>
+          {/* <img className="bocadillo-top" src={BocadilloTop}/> */}
           <div className="classbar-pricing">
             <div className="classbar-price">
               {props.price}

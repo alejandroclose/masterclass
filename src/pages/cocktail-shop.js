@@ -75,7 +75,7 @@ const CocktailShop = () => (
         <li>Ordenador, teléfono móvil o tablet</li>
         <li>Conexión estable a internet</li>
         <li>Navegador Chrome o Firefox reciente</li>
-        <li>Ingredientes para preparar los cocteles
+        <li>Ingredientes para preparar los cocteles (opcional)
         <div>Ginebra (Gin), ron, limones, azúcar, mermelada de naranja, miel, agua con gas,
         zumo de piña (jugo de piña), zumo de naranja (jugo de naranja), fresas, menta fresca, albahaca fresca, hielo.
         </div>

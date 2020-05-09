@@ -2,6 +2,8 @@ import React, { useState } from "react"
 
 import "./classbar.css"
 
+import BocadilloTop from "../images/bocadillo-top.png"
+
 const Classbar = props => {
   // const [, ] = useState();
 
@@ -18,6 +20,7 @@ const Classbar = props => {
           <div className="classbar-type">
             <div className="classbar-event">{props.type}</div>
           </div>
+          <img className="bocadillo-top" src={BocadilloTop}/>
           <div className="classbar-pricing">
             <div className="classbar-price">
               {props.price}

@@ -7,14 +7,31 @@
 }
 
 .date-text p{
+  min-width: 15vw;
   margin-bottom: 0;
+}
+
+.date-price {
+  color: #ee2e30;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: 0 1rem 0 1rem;
+}
+
+.date-link {
+  width: 100%
+}
+
+.bocadillo-right {
+  width: 10rem;
+  height: 2rem;
+  margin: 0 1rem 0 0;
 }
 
 .date-btn {
   cursor: pointer;
   height: 2rem;
-  margin: 0 2rem;
-  background-color: transparent;
+  background-color: #ee2e30;
   border: 2px solid #ee2e30;
-  color: #ee2e30;
+  color: white;
 }

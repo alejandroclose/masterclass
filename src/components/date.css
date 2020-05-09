@@ -2,7 +2,9 @@
   font-family: "Open Sans", sans-serif;
   border-bottom: 2px solid #f9f6ef;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
   padding: 0.5rem 0 1rem 0 ;
 }
 
@@ -19,7 +21,7 @@
 }
 
 .date-link {
-  width: 100%
+  width: 5rem;
 }
 
 .bocadillo-right {
@@ -34,4 +36,12 @@
   background-color: #ee2e30;
   border: 2px solid #ee2e30;
   color: white;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .date-text p{
+    min-width: 30vw;
+  }
 }

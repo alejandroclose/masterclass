@@ -22,9 +22,9 @@ const IndexPage = () => (
       title="MASTER CLASS DE COCTELERIA #ENCASA"
       author="por Cocktail Shop"
       type="EN VIVO + ONLINE"
-      price="13 €"
+      price="14,99€"
       cta="Inscribirme"
-      link="http://www.lostragos.com"
+      link="https://zoom.us/webinar/register/WN_krP6PDGARWSQ0UQKuI12NA"
     />
     <Storefront
       featured="https://player.vimeo.com/video/414744180"
@@ -38,7 +38,7 @@ const IndexPage = () => (
       level="Iniciación"
       format="Online y en vivo"
       age="18 años"
-      date=""
+      date="Sáb. 30 de mayo 22h-23h"
       idlink="/cocktail-shop/#horarios"
     />
     <Content title="SOBRE EL CURSO">
@@ -93,7 +93,7 @@ const IndexPage = () => (
       <p>No se admiten cancelaciones.</p>
     </Content>
     <Content id="horarios" title="HORARIOS DISPONIBLES" order="last-content">
-      <Date date="Próximamente nuevos horarios"/>
+      <Date date="Sáb 30 de mayo 2020." time="22:00h-23:00h (CEST)" price="14,99€" cta="Inscribirme" link="https://zoom.us/webinar/register/WN_krP6PDGARWSQ0UQKuI12NA"/>
     </Content>
   </Layout>
 )

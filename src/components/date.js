@@ -14,7 +14,7 @@ const Date = props => {
           <p>{props.date}</p>
           <p>{props.time}</p>
         </div>
-        <div className="date-price">13€</div>
+  <div className="date-price">{props.price}</div>
         {/* <img className="bocadillo-right" src={BocadilloRight} /> */}
         <a className="date-link" target="_blank" href={props.link}>
           <button className="date-btn">{props.cta}</button>

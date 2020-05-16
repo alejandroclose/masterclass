@@ -58,11 +58,11 @@
 }
 
 .classbar-price {
-  width: 5rem;
+  width: 6rem;
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #ee2e30;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .classbar-cta {

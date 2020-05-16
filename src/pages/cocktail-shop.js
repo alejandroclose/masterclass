@@ -20,7 +20,7 @@ const CocktailShop = () => (
     <SEO title="Master class de coctelería #EnCasa | losTRAGOS + Cocktail Shop" />
     <ClassBar
       title="MASTER CLASS DE COCTELERIA #ENCASA"
-      author="por Cocktail Shop"
+      author="por Alberto Pizarro"
       type="EN VIVO + ONLINE"
       price="14,99€"
       cta="Inscribirme"

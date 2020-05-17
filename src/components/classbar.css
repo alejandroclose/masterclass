@@ -42,6 +42,7 @@
 }
 
 .classbar-rating{
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: row;;
   margin: 0 1rem;
@@ -49,6 +50,7 @@
 
 .classbar-rating-icon {
   width: 1.15rem;
+  margin: 0 0.15rem;
 }
 
 .classbar-rating-text {

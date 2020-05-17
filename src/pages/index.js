@@ -21,6 +21,8 @@ const IndexPage = () => (
     <ClassBar
       title="MASTER CLASS DE COCTELERIA #ENCASA"
       author="por Alberto Pizarro"
+      score="4.8"
+      ratings="5"
       type="EN VIVO + ONLINE"
       price="14,99€"
       cta="Inscribirme"

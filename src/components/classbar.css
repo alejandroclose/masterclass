@@ -29,11 +29,42 @@
   margin: 0;
 }
 
+.classbar-details {
+  display: flex;
+  flex-direction: row;
+}
+
 .classbar-author {
   font-family: "Open Sans", sans-serif;
   color: grey;
   font-size: 1.1rem;
   margin: 0;
+}
+
+.classbar-rating{
+  display: flex;
+  flex-direction: row;;
+  margin: 0 1rem;
+}
+
+.classbar-rating-icon {
+  width: 1.15rem;
+}
+
+.classbar-rating-text {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.classbar-rating-score{
+  color: #ee2e30;
+  font-weight: 800;
+}
+
+.classbar-rating-qty {
+  margin: 0 0.25rem;
 }
 
 .classbar-type {
@@ -49,7 +80,9 @@
   color: #ee2e30;
   width: 13rem;
   border: 2px solid #ee2e30;
+  border-radius: 25px;
   letter-spacing: 0.05rem;
+
 }
 
 .classbar-pricing {
@@ -91,7 +124,7 @@
 
 @media only screen and (max-width: 767px) {
   .classbar {
-    height: 9.5rem;
+    height: 8rem;
   }
 
   .classbar-title {
@@ -107,6 +140,15 @@
     justify-content: space-between;
   }
 
+  .classbar-details{
+    flex-direction: column;
+  }
+
+  .classbar-rating{
+    margin: 0;
+    width: 12rem;
+  }
+
   .classbar-type {
     height: 100%;
   }
@@ -117,7 +159,11 @@
   }
 
   .classbar-pricing {
-    width: 6rem;
+    display: none;
+  }
+
+  .classbar-cta {
+    display: none;
   }
 
   .bocadillo-top {

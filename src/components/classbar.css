@@ -125,6 +125,10 @@
   left: 7rem;
 }
 
+.classbar-bottom {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
   .classbar {
     height: 8rem;
@@ -167,6 +171,48 @@
 
   .classbar-cta {
     display: none;
+  }
+
+  .classbar-bottom {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    height: 10vh;
+    background-color: white;
+    border-top: 2px solid #ee2e30;
+  }
+
+  .classbar-bottom-pricing {
+    display: flex;
+    align-items: center;
+  }
+  
+  .classbar-bottom-price {
+    width: 6rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ee2e30;
+    margin: 0.5rem;
+  }
+  
+  .classbar-bottom-cta {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .classbar-bottom-cta button {
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.15rem;
+    background-color: #ee2e30;
+    border: none;
+    padding: 0.5rem 1.25rem;
+    color: white;
   }
 
   .bocadillo-top {

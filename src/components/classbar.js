@@ -36,6 +36,14 @@ const Classbar = props => {
             <button>{props.cta}</button>
           </a>
         </div>
+        <div className="classbar-bottom">
+        <div className="classbar-bottom-pricing">
+            <div className="classbar-bottom-price">{props.price}</div>
+          </div>
+          <a target="_blank" className="classbar-bottom-cta" href={props.link}>
+            <button>{props.cta}</button>
+          </a>
+        </div>
       </div>
     </>
   )

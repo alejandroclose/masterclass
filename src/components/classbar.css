@@ -1,8 +1,8 @@
 .classbar {
   width: 100vw;
   height: 4.5rem;
-  border-top: 2px solid #ee2e30;
-  border-bottom: 2px solid #ee2e30;
+  border-top: 2px solid #ea2434;
+  border-bottom: 2px solid #ea2434;
   background-color: #f9f6ef;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .classbar-rating-score{
-  color: #ee2e30;
+  color: #ea2434;
   font-weight: 800;
 }
 
@@ -80,9 +80,9 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   text-align: center;
-  color: #ee2e30;
+  color: #ea2434;
   width: 13rem;
-  border: 2px solid #ee2e30;
+  border: 2px solid #ea2434;
   border-radius: 25px;
   letter-spacing: 0.05rem;
 
@@ -91,14 +91,37 @@
 .classbar-pricing {
   display: flex;
   align-items: center;
+  margin: 0 0.5rem;
 }
 
 .classbar-price {
-  width: 6rem;
+  width: 8rem;
   font-weight: 600;
   font-size: 1.5rem;
-  color: #ee2e30;
+  color: #ea2434;
   margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.classbar-price-sale {
+  margin: 0 0.35rem 0 0;
+}
+
+.classbar-price-discount {
+  font-size: 1.1rem;
+  color: #29A2DA;
+  text-align: end;
+}
+
+.classbar-price-original{
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: black;
+  align-content: flex-end;
+  text-align: end;
 }
 
 .classbar-cta {
@@ -112,7 +135,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 1.15rem;
-  background-color: #ee2e30;
+  background-color: #ea2434;
   border: none;
   padding: 0.5rem 1.25rem;
   color: white;
@@ -183,19 +206,23 @@
     bottom: 0;
     height: 10vh;
     background-color: white;
-    border-top: 2px solid #ee2e30;
+    border-top: 2px solid #ea2434;
   }
 
   .classbar-bottom-pricing {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
   
   .classbar-bottom-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 6rem;
     font-weight: 600;
     font-size: 1.5rem;
-    color: #ee2e30;
+    color: #ea2434;
     margin: 0.5rem;
   }
   
@@ -209,7 +236,7 @@
     cursor: pointer;
     font-weight: 800;
     font-size: 1.15rem;
-    background-color: #ee2e30;
+    background-color: #ea2434;
     border: none;
     padding: 0.5rem 1.25rem;
     color: white;

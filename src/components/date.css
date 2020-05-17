@@ -14,7 +14,7 @@
 }
 
 .date-price {
-  color: #ee2e30;
+  color: #ea2434;
   font-size: 1.4rem;
   font-weight: 800;
   margin: 0 1rem 0 1rem;
@@ -33,8 +33,8 @@
 .date-btn {
   cursor: pointer;
   height: 2rem;
-  background-color: #ee2e30;
-  border: 2px solid #ee2e30;
+  background-color: #ea2434;
+  border: 2px solid #ea2434;
   color: white;
   margin: 0.5rem;
 }

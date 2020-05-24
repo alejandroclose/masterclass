@@ -10,7 +10,7 @@ const Breadcrumb = props => {
   return (
     <>
       <div className="breadcrumb">
-      <a href="http://www.lostragos.com" target="_blank" ><Home className="breadcrumb-home"/></a>/ <Link to="/cursos">Cursos</Link> / Cocktail Shop
+      <a href="http://www.lostragos.com" target="_blank" ><Home className="breadcrumb-home"/></a>/ <Link to="/cursos">Cursos</Link> / {props.title}
       </div>
     </>
   )

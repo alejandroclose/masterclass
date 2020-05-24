@@ -10,7 +10,7 @@ import Content from "../components/content"
 import Biography from "../components/biography"
 import Date from "../components/date"
 
-import Pizarro from "../images/albertopizarro.jpg"
+import Pizarro from "../images/pizarro.jpg"
 import Pizarro2 from "../images/albertopizarro2.jpg"
 import CS1 from "../images/cocktailshop1.jpg"
 import CS2 from "../images/cocktailshop2.jpg"
@@ -24,13 +24,13 @@ const CocktailShop = () => (
       score="4.8"
       ratings="5"
       type="EN VIVO + ONLINE"
-      price="14,99€"
+      price="25€"
       cta="Inscribirme"
-      link="https://zoom.us/webinar/register/WN_krP6PDGARWSQ0UQKuI12NA"
+      link="https://share.hsforms.com/1XOeGqoplRWu0o4tgKr52Aw4kj1q"
     />
     <Storefront
       featured="https://player.vimeo.com/video/414744180"
-      secondary={Pizarro}
+      secondary={Pizarro2}
       galleryone={CS1}
       gallerytwo={CS2}
     />
@@ -40,7 +40,7 @@ const CocktailShop = () => (
       level="Iniciación"
       format="Online y en vivo"
       age="18 años"
-      date="Sáb. 30 de mayo 22h-23h"
+      date="Próximamente"
       idlink="/cocktail-shop/#horarios"
     />
     <Content title="SOBRE EL CURSO">
@@ -95,7 +95,7 @@ const CocktailShop = () => (
       <p>No se admiten cancelaciones.</p>
     </Content>
     <Content id="horarios" title="HORARIOS DISPONIBLES" order="last-content">
-      <Date date="Sáb 30 de mayo 2020." time="22:00h-23:00h (CEST)" price="14,99€" cta="Inscribirme" link="https://zoom.us/webinar/register/WN_krP6PDGARWSQ0UQKuI12NA"/>
+      <Date date="Próximamente" time="" price="25€" cta="Apuntarme" link="https://share.hsforms.com/1XOeGqoplRWu0o4tgKr52Aw4kj1q"/>
     </Content>
   </Layout>
 )

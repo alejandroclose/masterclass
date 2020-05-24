@@ -24,8 +24,10 @@ const CocktailShop = () => (
       score="4.8"
       ratings="5"
       type="EN VIVO + ONLINE"
-      price="25€"
-      cta="Inscribirme"
+      price="25€ / pantalla"
+      discount=""
+      originalprice=""
+      cta="Apuntarme"
       link="https://share.hsforms.com/1XOeGqoplRWu0o4tgKr52Aw4kj1q"
     />
     <Storefront

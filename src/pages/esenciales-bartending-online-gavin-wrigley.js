@@ -38,7 +38,7 @@ const EsencialesBartending = () => (
       time="3.5 horas"
       lang="VOSE"
       level="Básico"
-      format="Online y en vivo"
+      format="Online"
       age="18 años"
       date="Hoy"
       idlink="/esenciales-bartending-online-gavin-wrigley/#horarios"

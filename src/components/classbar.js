@@ -37,7 +37,7 @@ const Classbar = props => {
               <div className="classbar-price-sale">
                 <div className="classbar-price-discount">{props.discount}</div>
                 <div className="classbar-price-original">
-                  {props.originalvalue}
+                  {props.originalprice}
                 </div>
               </div>
               <div>{props.price}</div>

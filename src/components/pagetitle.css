@@ -1,0 +1,12 @@
+
+.page-title {
+  text-align: center;
+  background-color: #f9f6ef;
+  height: 10vh;
+}
+
+.title-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}

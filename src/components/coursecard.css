@@ -1,0 +1,9 @@
+.course-card {
+  width: 60vw;
+  margin: 0;
+  background-color: white;
+}
+
+.course-card-img {
+  width: 30vw;
+}

@@ -1,9 +1,109 @@
 .course-card {
   width: 60vw;
-  margin: 0;
+  height: 35vh;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
   background-color: white;
 }
 
-.course-card-img {
+.coursecard-event {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #ea2434;
+  border: 2px solid #ea2434;
+  border-radius: 25px;
+  margin: 1rem;
+  padding:0 1rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.coursecard-img {
   width: 30vw;
+  height: 100%;
+}
+
+.coursecard-content {
+  font-family: "Montserrat", sans-serif;
+  width: 30vw;
+  min-height: 35vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coursecard-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0;
+  color: #ea2434;
+}
+
+.coursecard-author{
+  font-family: "Open Sans", sans-serif;
+  color: grey;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.coursecard-desc {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.coursecard-pricing {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.coursecard-price {
+  width: 8rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #ea2434;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coursecard-cta {
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  background-color: white;
+  border: 2px solid #ea2434 ;
+  padding: 0.25rem 0.75rem;
+}
+
+.coursecard-cta a {
+  color: #ea2434;
+}
+
+@media only screen and (max-width: 767px) {
+  .course-card{
+    flex-direction: column;
+    width: 90vw;
+    height: 100%;
+  }
+
+  .coursecard-content {
+    width: 100%;
+  }
+
+  .coursecard-img {
+    width: 100%;
+  }
 }

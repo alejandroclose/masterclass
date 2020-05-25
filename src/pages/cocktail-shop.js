@@ -12,6 +12,7 @@ import Date from "../components/date"
 
 import Pizarro from "../images/pizarro.jpg"
 import Pizarro2 from "../images/albertopizarro2.jpg"
+import Pizarro3 from "../images/albertopizarro3.png"
 import CS1 from "../images/cocktailshop1.jpg"
 import CS2 from "../images/cocktailshop2.jpg"
 
@@ -32,7 +33,7 @@ const CocktailShop = () => (
     />
     <Storefront
       featured="https://player.vimeo.com/video/414744180"
-      secondary={Pizarro2}
+      secondary={Pizarro3}
       galleryone={CS1}
       gallerytwo={CS2}
     />

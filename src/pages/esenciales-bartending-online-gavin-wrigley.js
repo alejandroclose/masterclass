@@ -26,7 +26,7 @@ const EsencialesBartending = () => (
       type="ONLINE"
       price="34€"
       cta="Inscribirme"
-      link=""
+      link="https://www.awin1.com/cread.php?awinmid=19929&awinaffid=527931&clickref=European+Bartender+School&ued=https%3A%2F%2Fwww.barschool.net%2Fes%2Fcursos%2Fonline-bartender"
     />
     <Storefront
       featured="https://player.vimeo.com/video/421875920"
